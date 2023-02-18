@@ -7,7 +7,3 @@ def remove_numbers():
 
     with open("file.txt", 'w') as filedata:
         file.datalines = filedata.()
-
-
-
-
