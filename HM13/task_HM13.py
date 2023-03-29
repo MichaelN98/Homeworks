@@ -3,7 +3,7 @@ class CustomIterator:
         self.__sequence = sequence
         self.__start_index = start_index
         self.__end_index = end_index
-        self.__current_position = 0
+        self.__current_position = start_index
 
     def __iter__(self):
         return self
@@ -15,5 +15,3 @@ class CustomIterator:
             return value
         else:
             raise StopIteration
-
-
